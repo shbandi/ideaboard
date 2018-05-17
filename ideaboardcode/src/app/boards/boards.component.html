@@ -1,0 +1,14 @@
+
+<div>
+  <label><input [(ngModel)] = "board.name" placeholder="name">
+  </label>
+</div>
+<div><span>id :</span>{{board.id}}</div>
+<div><span>name:</span>{{board.name}}</div>
+
+<h2>My Boards</h2>
+<ul>
+  <li *ngFor="let board of boards">
+    <span class="badge">{{board.id}}</span> {{board.name}}
+  </li>
+</ul>
