@@ -1,1 +1,1 @@
-# ideaboard
+open source ideaboard for retro meetings
